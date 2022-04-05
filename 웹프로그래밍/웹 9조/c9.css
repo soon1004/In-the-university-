@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+body
+{
+	font-family: "Nanum Myeongjo";
+}
+
+header
+{
+	height: 100vh;
+}
+
+section
+{
+	height: 100vh;
+}
+
+.dim
+{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+
+	background-color: black;
+	opacity: 0.5;
+
+	z-index: 1;
+	display: none;
+}
+
+.pop
+{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+
+	background: white;
+	color: black;
+
+	padding: 2em;
+
+	border: 5px solid deepskyblue;
+
+	z-index: 2;
+	display: none;
+}
+
+#logoimg
+{
+	width: 4em;
+	height: 4em;
+
+	display: none;
+}
+
+#top
+{
+	background: url("img/header.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#introduce
+{
+	background: url("img/cafeimg1.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#ratings
+{
+	background: url("img/cafeimg2.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#order
+{
+	background: url("img/cafeimg3.jpg") no-repeat center center fixed;
+	background-size: cover;
+}

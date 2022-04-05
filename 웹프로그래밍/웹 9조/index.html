@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+	<script src="jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="c9.css">
+   
+    <script src="c9.js"></script>
+</head>
+<body>
+
+	<!--상단 메뉴-->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<span class="navbar-brand mb-0">
+			<a class="js-scroll-trigger" href="#top"><img id="logoimg" src="img/logo.png"></a>
+			<a id="logotext" class="js-scroll-trigger navbar-brand" href="#top">Café Nine</a>
+		</span>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navb" aria-controls="navb" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div id="navb" class="navbar-collapse collapse">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger" href="#introduce">카페 및 메뉴 소개</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger" href="#ratings">사용자 추천</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger" href="#order">예약 주문</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav ml-auto">
+      			<li class="nav-item">
+      				<a id="signup" class="nav-link" href="#">회원가입</a>
+      			</li>
+      			<li class="nav-item">
+					<a id="login" class="nav-link" href="#">로그인</a>
+				</li>
+			</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--헤더 영역-->
+	<header id="top">
+		
+	</header>
+
+	<!--카페 및 메뉴 소개-->	
+	<section id="introduce">
+		
+	</section>
+
+	<!--사용자 추천-->	
+	<section id="ratings">
+		
+	</section>
+
+	<!--예약 주문-->	
+	<section id="order">
+		
+	</section>
+
+	<!--레이어 팝업창 강조를 위한 딤 레이어-->
+	<div class="dim"></div>
+
+	<!--회원가입 레이어-->
+	<div id="signUpLayer" class="pop">
+		<form>
+			<div class="form-group">
+		    	<label for="inputName">이름</label>
+				<input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="실명">
+			</div>
+			<div class="form-group">
+		    	<label for="inputEmail">이메일</label>
+				<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="xxx@website.com">
+			</div>
+			<div class="form-group">
+				<label for="passwd">비밀번호</label>
+				<input type="password" class="form-control" id="passwd" name="passwd" placeholder="********">
+			</div>
+			<button type="submit" class="btn btn-success">가입</button>
+		</form>
+	</div>
+
+	<!--로그인 레이어-->
+	<div id="loginLayer" class="pop">
+		<form>
+			<div class="form-group">
+		    <label for="inputEmail">이메일</label>
+			<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="xxx@website.com">
+			</div>
+			<div class="form-group">
+				<label for="passwd">비밀번호</label>
+				<input type="password" class="form-control" id="passwd" name="passwd" placeholder="********">
+			</div>
+			<button type="submit" class="btn btn-success">로그인</button>
+		</form>
+	</div>
+	
+	
+	
+
+</body>
+</html>
