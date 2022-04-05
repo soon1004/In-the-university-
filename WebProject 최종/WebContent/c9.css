@@ -1,0 +1,154 @@
+body
+{
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .text-heading
+{
+	font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1
+{
+	font-size: 4rem;
+}
+
+header
+{
+	height: 100vh;
+}
+
+section
+{
+	height: 100vh;
+	
+	padding-top: 10em;
+}
+
+.dim
+{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+
+	background-color: black;
+	opacity: 0.5;
+
+	z-index: 14;
+	display: none;
+}
+
+.pop
+{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+
+	background: white;
+	color: black;
+
+	padding: 2em;
+
+	border: 5px solid deepskyblue;
+
+	z-index: 15;
+	display: none;
+}
+
+.tagline-upper
+{
+	font-size: 5rem;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.tagline-lower
+{
+	font-size: 1.2rem;
+	line-height: 1;
+}
+
+.bg-faded
+{
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.fixed
+{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#logoimg
+{
+	width: 4em;
+	height: 4em;
+
+	display: none;
+}
+
+#navmenu
+{
+	width: 100%;
+	transition: position 10s;
+}
+
+#top
+{
+	background: url("img/bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#cafe
+{
+	background: url("img/cafeimg1.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#review
+{
+	background: url("img/cafeimg2.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#order
+{
+	background: url("img/cafeimg3.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#cafeLayer
+{
+	margin: 2em;
+	
+	transform: translate(0, -10%);
+}
+
+
+
+#orderLayer
+{
+	background-color: rgba(255, 255, 255, 0.9);
+	
+	width: 50%;
+	
+	left: 50%;
+	
+	transform: translate(-50%, 0);
+}
+
+#gameLayer
+{	
+	width: 50%;
+	height: 75%;
+}
+
+#gameCanvas
+{
+	display: block;
+	margin: 0 auto;
+}
